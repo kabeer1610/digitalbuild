@@ -1,0 +1,63 @@
+.card {
+    margin-top: 150px;
+    width: 477px;
+    height: 512px;
+    flex-shrink: 0;
+}
+
+
+.background-image {
+    background-image: url('/assets/backgrround.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+
+}
+
+.image {
+    width: 161px;
+    height: 72px;
+    flex-shrink: 0;
+    justify-content: right;
+}
+
+.login {
+    color: #000;
+    font-style: "Roboto Flex";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    padding-left: 15px;
+    padding-left: 20px;
+}
+
+.input {
+    width: 357px;
+    height: 46px;
+    flex-shrink: 0;
+    padding-left: 25px;
+}
+
+.button {
+    width: 205px;
+    height: 55px;
+    flex-shrink: 0;
+    background: #0f5e96;
+    font-family: Gilroy-Bold;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+
+}
+
+.button-out {
+    padding: 62px;
+    margin: bottom 40px;
+    color: #FFF;
+
+
+}
