@@ -21,6 +21,7 @@
       "prefix": "app",
       "architect": {
         "build": {
+          
           "builder": "@angular-devkit/build-angular:application",
           "options": {
             "outputPath": "dist/app-digital",
@@ -46,6 +47,7 @@
             }
           },
           "configurations": {
+            
             "production": {
               "budgets": [
                 {
@@ -62,7 +64,7 @@
               "outputHashing": "all"
             },
             "development": {
-              "optimization": false,
+              "optimization": true,
               "extractLicenses": false,
               "sourceMap": true
             }
