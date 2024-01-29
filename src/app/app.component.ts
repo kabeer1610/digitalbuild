@@ -9,7 +9,7 @@ import { Component } from '@angular/core';
 export class AppComponent {
  
  
-  title = 'app-digital';
+  title = 'app-digitals-45';
   
 }
 
