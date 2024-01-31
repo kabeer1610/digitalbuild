@@ -1,46 +1,116 @@
-
-
-
-
-<div id="container">
-    <div id="header">
-        <h1>Header</h1>
+<!-- Header -->
+<div class="container-fluid p-0">
+  <div class="row row-nowrap">
+      
+    <header class="card-header card shadow-lg border-0  text-white">
+      <div class="header-body">
+          <a  href=""><img class="header-menu" src="assets/list (1).svg" alt=""></a>
+          
+          <p  class="greeting mt-5">Good Morning, User!</p>
+          <button class="d-line header-button mb-0">
+            Create New RFI
+           </button>
+      
         
+        
+        
+      </div>
+      
+  </header>
+  </div>
+</div>
+
+
+
+
+
+
+<!-- _______SIDENAV__________ -->
+
+<nav class="sidenav col-md-2 d-none d-md-block sidebar border-primary">
+
+
+  <div class="VA pt-2">
+
+    <span class="V ">V</span>
+    <span class="A">A</span>
+
+  </div>
+  <div class="mainmenu ms-4 mb-2">
+    MAIN MENU
+  </div>
+
+
+  <div>
+
+    <div class="ms-3 mb-1">
+      <a routerLink="rfi-list" href="" class="text-decoration-none">
+        <li class="RFI text-white pt-3">
+
+          <img class="mb-2 ms-2" src="assets/fluent_document-css-16-regular.png" alt="">
+          <span class="ms-1">RFI</span>
+
+        </li>
+      </a>
     </div>
-    <div id="wrapper">
-        <div id="content">
-            <router-outlet></router-outlet>
-        </div>
+    <a class="text-decoration-none" href="">
+      <li class="dashboard text-white mt-0 pt-3">
+        <img class="ms-4" src="assets/Group.png" alt="">
+        <span class="ms-2">Dashboard</span>
+      </li>
+    </a>
+    <a class="text-decoration-none" href="">
+      <li class="summary text-white pt-3">
+        <img class="ms-4" src="assets/Group 87.png" alt="">
+        <span class="ms-2">summary</span>
+      </li>
+    </a>
+    <a class="text-decoration-none" href="">
+      <li class="settings text-white pt-3">
+        <img class="ms-4" src="assets/material-symbols_settings-outline.png" alt="">
+        <span class="ms-2 ">Settings</span>
+      </li>
+    </a>
+
+
+    <div class="mainmenu ms-4 mb-2">
+      General
     </div>
-    <div id="navigation">
-        <p><strong>2. Navigation Menu</strong></p>
-        <h3>Styling Flex Container</h3>
-        <ul>
-            <li>flex-direction</li>
-            <li>flex-wrap</li>
-            <li>justify-content</li>
-            <li>align-content</li>
-            <li>align-items</li>
-        </ul>
-        <h3>Designing Flex Items </h3>
-        <ul>
-            <li>order</li>
-            <li>align-self</li>
-            <li>flex-grow</li>
-            <li>flex-shrink</li>
-            <li>flex-basis</li>
-        </ul>
+    <a class="text-decoration-none" href="">
+      <li class="dashboard text-white  pt-3">
+        <img class="ms-4" src="assets/Vector (3).png" alt="">
+        <span class="ms-2"> Help & Support</span>
+      </li>
+    </a>
+
+    <a class="text-decoration-none" href="">
+      <li class="dashboard text-white pt-3">
+        <img class="ms-4" src="assets/teenyicons_password-solid.png" alt="">
+        <span class="ms-2">Password Change</span>
+      </li>
+    </a>
+
+  </div>
+
+  <footer>
+    <div class="line text-light">
+      <hr>
     </div>
-    <div id="extra">
-        <p><strong>3. Additional Stuff</strong></p>
-        <h3>In this guide you will learn:</h3>
-        <ul>
-            <li>How to use CSS Flexbox to build modern layouts</li>
-            <li>How to align items both vertically and horizontally</li>
-            <li>How to order items within container</li>
-            <li>And more</li>
-        </ul>
+
+    <div class="footer ms-5">
+      <span>Powered By: <img class="footer-logo " src="assets\codyx-logo 2.png" alt=""></span>
     </div>
-    <div id="footer"><p>Footer</p>
+
+
+
+  </footer>
+
+</nav>
+<!-- Main Content -->
+<div class="container mt-4">
+  <div class="row">
+    <div class="col-lg-12 text-center">
+      <router-outlet></router-outlet>
     </div>
+  </div>
 </div>
